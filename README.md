@@ -1,29 +1,21 @@
-# web-dev-starter
+There is no build process required. You can view the site in two simple ways:
 
-This is a starter project for web development with no frameworks and minimal
-dependencies. It is intended to be a starting point for web development projects
-that are written in plain HTML, CSS, and JavaScript.
+Option 1: Open directly
 
-## Getting Started
+Download or clone this repository.
 
-To get started, clone this repository and run the following commands:
+Locate the index.html file.
 
-```bash
-npm install
-```
-This will install the necessary dependencies for the project.
+Double-click index.html (or right-click -> Open With -> choose your browser).
 
-## Development
+The site will open in your default browser.
 
-It is recommended to use the VSCode Live Server extension to run the project
-locally. This will allow you to see changes in real-time as you make them. There
-is no need to run a build process or refresh the page manually. Additionally,
-you do not need to setup a local server to run the project.
+Option 2: Use Live Server (recommended)
 
-## Testing
+Open the project folder in VS Code.
 
-To run the tests for the project, run the following command:
+Install the Live Server extension.
 
-```bash
-npm test
-```
+Right-click index.html and choose “Open with Live Server.”
+
+This will launch the site at http://localhost:5500 (or another port) and automatically reload the page as you make changes.
